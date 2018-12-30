@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title2 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title1 = new System.Windows.Forms.DataVisualization.Charting.Title();
             this.back = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label1 = new System.Windows.Forms.Label();
@@ -50,7 +50,7 @@
             // 
             this.back.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.back.Location = new System.Drawing.Point(2322, 1228);
-            this.back.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.back.Margin = new System.Windows.Forms.Padding(6);
             this.back.Name = "back";
             this.back.Size = new System.Drawing.Size(248, 95);
             this.back.TabIndex = 0;
@@ -75,29 +75,29 @@
             // 
             // chart
             // 
-            chartArea2.Name = "ChartArea1";
-            this.chart.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            this.chart.Legends.Add(legend2);
+            chartArea1.Name = "ChartArea1";
+            this.chart.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chart.Legends.Add(legend1);
             this.chart.Location = new System.Drawing.Point(632, 182);
-            this.chart.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.chart.Margin = new System.Windows.Forms.Padding(6);
             this.chart.Name = "chart";
-            series2.ChartArea = "ChartArea1";
-            series2.Legend = "Legend1";
-            series2.Name = "Concentration";
-            this.chart.Series.Add(series2);
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Concentration";
+            this.chart.Series.Add(series1);
             this.chart.Size = new System.Drawing.Size(1550, 789);
             this.chart.TabIndex = 2;
             this.chart.Text = "Chart";
-            title2.Name = "Title1";
-            this.chart.Titles.Add(title2);
+            title1.Name = "Title1";
+            this.chart.Titles.Add(title1);
             this.chart.Click += new System.EventHandler(this.chart_Click);
             // 
             // replay
             // 
             this.replay.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.replay.Location = new System.Drawing.Point(136, 182);
-            this.replay.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.replay.Margin = new System.Windows.Forms.Padding(6);
             this.replay.Name = "replay";
             this.replay.Size = new System.Drawing.Size(276, 97);
             this.replay.TabIndex = 3;
@@ -153,7 +153,7 @@
             // 
             this.pause.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.pause.Location = new System.Drawing.Point(2344, 767);
-            this.pause.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.pause.Margin = new System.Windows.Forms.Padding(6);
             this.pause.Name = "pause";
             this.pause.Size = new System.Drawing.Size(276, 91);
             this.pause.TabIndex = 8;
@@ -166,7 +166,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.BackgroundImage = global::Work2.Properties.Resources.רקע;
+            this.BackgroundImage = global::Work2.Properties.Resources.background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(2784, 1387);
             this.Controls.Add(this.pause);
@@ -179,7 +179,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.back);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Simulation";
             this.Text = "Show Simulation";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Simulation_FormClosed);

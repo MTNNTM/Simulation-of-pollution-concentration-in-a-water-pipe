@@ -55,7 +55,7 @@
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.button4.Location = new System.Drawing.Point(72, 1157);
-            this.button4.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.button4.Margin = new System.Windows.Forms.Padding(8);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(290, 122);
             this.button4.TabIndex = 3;
@@ -123,7 +123,7 @@
             // 
             this.speed.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.speed.Location = new System.Drawing.Point(1320, 196);
-            this.speed.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.speed.Margin = new System.Windows.Forms.Padding(6);
             this.speed.Name = "speed";
             this.speed.Size = new System.Drawing.Size(398, 60);
             this.speed.TabIndex = 14;
@@ -132,7 +132,7 @@
             // 
             this.radius.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.radius.Location = new System.Drawing.Point(1320, 347);
-            this.radius.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.radius.Margin = new System.Windows.Forms.Padding(6);
             this.radius.Name = "radius";
             this.radius.Size = new System.Drawing.Size(398, 60);
             this.radius.TabIndex = 15;
@@ -141,7 +141,7 @@
             // 
             this.length.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.length.Location = new System.Drawing.Point(1320, 498);
-            this.length.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.length.Margin = new System.Windows.Forms.Padding(6);
             this.length.Name = "length";
             this.length.Size = new System.Drawing.Size(398, 60);
             this.length.TabIndex = 16;
@@ -150,7 +150,7 @@
             // 
             this.infection.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.infection.Location = new System.Drawing.Point(1320, 653);
-            this.infection.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.infection.Margin = new System.Windows.Forms.Padding(6);
             this.infection.Name = "infection";
             this.infection.Size = new System.Drawing.Size(398, 60);
             this.infection.TabIndex = 17;
@@ -159,7 +159,7 @@
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.button2.Location = new System.Drawing.Point(2322, 1122);
-            this.button2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.button2.Margin = new System.Windows.Forms.Padding(6);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(360, 114);
             this.button2.TabIndex = 18;
@@ -171,7 +171,7 @@
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.button3.Location = new System.Drawing.Point(1776, 994);
-            this.button3.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.button3.Margin = new System.Windows.Forms.Padding(8);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(230, 108);
             this.button3.TabIndex = 19;
@@ -183,7 +183,7 @@
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.button5.Location = new System.Drawing.Point(1182, 961);
-            this.button5.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.button5.Margin = new System.Windows.Forms.Padding(6);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(398, 141);
             this.button5.TabIndex = 20;
@@ -293,7 +293,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.BackgroundImage = global::Work2.Properties.Resources.רקע;
+            this.BackgroundImage = global::Work2.Properties.Resources.background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(2782, 1329);
             this.Controls.Add(this.label13);
@@ -317,7 +317,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button4);
-            this.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.Margin = new System.Windows.Forms.Padding(8);
             this.Name = "BuildPipe";
             this.Text = "Build The Pipe";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.BuildPipe_FormClosed);
